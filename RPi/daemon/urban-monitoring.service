@@ -1,0 +1,13 @@
+[Unit]
+Description=Urban Monitoring
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/urban_monitoring
+ExecStart=/home/pi/urban_monitoring/startMonitoring.sh daemon
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
