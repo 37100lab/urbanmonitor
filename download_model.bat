@@ -1,0 +1,2 @@
+cd C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\tools\model_downloader
+python downloader.py --name person-vehicle-bike-detection-crossroad-1016 -o C:\python\urban_detection_openvino\model

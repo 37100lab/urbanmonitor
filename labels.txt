@@ -1,0 +1,4 @@
+non-vehicle
+vehicle
+person
+unknown
